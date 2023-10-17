@@ -1,0 +1,7 @@
+2023-10-13 16:50:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-10-13 16:52:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2023-10-17 11:16:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO EMPLOYEE VALUES (3,'Niteesh'20000[*])"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO EMPLOYEE VALUES (3,'Niteesh'20000) [42001-200]
